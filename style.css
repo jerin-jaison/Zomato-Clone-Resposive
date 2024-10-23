@@ -417,7 +417,23 @@ nav .app_link a, nav  .nav_items ul{
      font-size: 1.5rem; 
 }
 .content_wrapper img{
-    width: 250px
+    width: 250px;
+}
+.order-section{
+    width: 90%; 
+}
+
+.order{
+    flex-wrap: wrap; 
+}
+
+.order .card{
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+.order .card:last-child{
+    order: 3; 
 }
 .collection-card .card{
     width: 100%;
@@ -455,5 +471,6 @@ nav .app_link a, nav  .nav_items ul{
     margin-bottom: 10px;
     margin-left: 0;
 }
+
 
 }
